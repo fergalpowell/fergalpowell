@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fergal Powell</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/home/images/fp.png' %}">
+    <link rel="stylesheet" href="{%  static 'home/css/index.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'home/css/theme7.css' %}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="{%  static 'home/js/jquery.tagcloud.js' %}"></script>
+    <script type="text/javascript" src="{% static 'home/js/addevent.js' %}"></script>
+
+</head>
+
+<body style="background-color: #EEEEEE; text-align: center">
+    <div id="nav">
+        <a class="active" data-target="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a data-target="#projects"><i class="fa fa-fw fa-clipboard"></i> Projects</a>
+        <a data-target="#experience"><i class="fa fa-fw fa-briefcase"></i> Experience</a>
+        <a data-target="#education"><i class="fa fa-fw fa-graduation-cap"></i> Education</a>
+        <a data-target="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+    </div>
+    <div id="home" class="card" style="width: 80%; margin: auto; top: 52px; border-top: none;">
+        <div class="card-header" style="background: url({% static 'home/images/background.svg' %}); border-radius: 0;">
+            <div id="profile-wrapper">
+                <img src="{% static 'home/images/profile.png' %}">
+            </div>
+        </div>
+        <div class="card-body">
+            <h3 style="font-size: 2rem;" class="card-title"><strong>Fergal Powell</strong></h3>
+            <p class="card-text">I am a Full Stack Software Developer with experience designing and developing Web and Mobile applications in agile corporate environments. I am comfortable working as the sole developer as well as part of a team, whether it is working on the front-end, back-end or in the cloud. I graduated with a first-class honour's degree in Computer Science in May 2018 and since then I have gained invaluable industry experience working at both FireEye and Ravencourt Ltd. Software development is my expertise and I am looking for challenging and interesting projects to work on to further grow my knowledge.</p>
+            <a href="javascript:alert('Check back later for more content!');" class="btn btn-primary">Read More</a>
+            <a href="#" class="btn btn-primary" style="display: none">Less</a>
+        </div>
+    </div>
+
+    <div id="technologies" class="card" style="margin-top: 15px; margin-left: auto; margin-right: auto; width: 80%; top: 52px;">
+        <div class="card-header" style="background-color: #ffffff">
+            <h4>Technologies & Practices</h4>
+        </div>
+        <div class="card-body">
+            <div id="tagcloud">
+                <a href="javascript:void(0);javascript:void(0);" rel="4">Java, </a>
+                <a href="javascript:void(0);" rel="6">C#, </a>
+                <a href="javascript:void(0);" rel="3">ASP.Net, </a>
+                <a href="javascript:void(0);" rel="4">PHP, </a>
+                <a href="javascript:void(0);" rel="2">Ruby, </a>
+                <a href="javascript:void(0);" rel="8">Python, </a>
+                <a href="javascript:void(0);" rel="10">Javascript, </a>
+                <a href="javascript:void(0);" rel="8">C++, </a>
+                <a href="javascript:void(0);" rel="3">Digital Ocean, </a>
+                <a href="javascript:void(0);" rel="7">AWS, </a>
+                <a href="javascript:void(0);" rel="5">CSS3, </a>
+                <a href="javascript:void(0);" rel="1">Docker, </a>
+                <a href="javascript:void(0);" rel="10">HTML5, </a>
+                <a href="javascript:void(0);" rel="1">SQL, </a>
+                <a href="javascript:void(0);" rel="2">ReactJS, </a>
+                <a href="javascript:void(0);" rel="5">Cordova Phonegap, </a>
+                <a href="javascript:void(0);" rel="7">PostgreSQL, </a>
+                <a href="javascript:void(0);" rel="1">C, </a>
+                <a href="javascript:void(0);" rel="4">AngularJS, </a>
+                <a href="javascript:void(0);" rel="1">typescript, </a>
+                <a href="javascript:void(0);" rel="2">MySQL, </a>
+                <a href="javascript:void(0);" rel="12">Django, </a>
+                <a href="javascript:void(0);" rel="4">PostGIS, </a>
+                <a href="javascript:void(0);" rel="1">Alteryx, </a>
+                <a href="javascript:void(0);" rel="1">JSON, </a>
+                <a href="javascript:void(0);" rel="8">Linux, </a>
+                <a href="javascript:void(0);" rel="1">XML, </a>
+                <a href="javascript:void(0);" rel="3">Vultr, </a>
+                <a href="javascript:void(0);" rel="1">JSX, </a>
+                <a href="javascript:void(0);" rel="11">Git, </a>
+                <a href="javascript:void(0);" rel="2">Flask, </a>
+                <a href="javascript:void(0);" rel="3">Android Studio, </a>
+                <a href="javascript:void(0);" rel="5">Traccar, </a>
+                <a href="javascript:void(0);" rel="1">Sendgrid, </a>
+                <a href="javascript:void(0);" rel="1">Visual Studios, </a>
+                <a href="javascript:void(0);" rel="11">Xcode, </a>
+                <a href="javascript:void(0);" rel="1">RxJS, </a>
+                <a href="javascript:void(0);" rel="1">OWasp, </a>
+                <a href="javascript:void(0);" rel="1">Rails, </a>
+                <a href="javascript:void(0);" rel="3">JQuery, </a>
+                <a href="javascript:void(0);" rel="10">Braintree, </a>
+                <a href="javascript:void(0);" rel="1">Bootstrap, </a>
+                <a href="javascript:void(0);" rel="8">Google Maps API, </a>
+                <a href="javascript:void(0);" rel="2">LeafletJS, </a>
+                <a href="javascript:void(0);" rel="1">Dropbox API, </a>
+                <a href="javascript:void(0);" rel="1">Let's Encrypt, </a>
+                <a href="javascript:void(0);" rel="6">OpenStreetMap, </a>
+                <a href="javascript:void(0);" rel="1">Unity, </a>
+                <a href="javascript:void(0);" rel="12">Firebase, </a>
+                <a href="javascript:void(0);" rel="3">Bash, </a>
+                <a href="javascript:void(0);" rel="5">NodeJS, </a>
+                <a href="javascript:void(0);" rel="8">Oracle, </a>
+                <a href="javascript:void(0);" rel="1">MassiveJS, </a>
+                <a href="javascript:void(0);" rel="1">Jenkins, </a>
+                <a href="javascript:void(0);" rel="11">Twilio, </a>
+                <a href="javascript:void(0);" rel="1">MongoDB, </a>
+                <a href="javascript:void(0);" rel="1">ExpressJS, </a>
+                <a href="javascript:void(0);" rel="4">Nginx, </a>
+                <a href="javascript:void(0);" rel="1">Font Awesome, </a>
+                <a href="javascript:void(0);" rel="2">Gunicorn, </a>
+                <a href="javascript:void(0);" rel="9">Cisco Packet Tracer, </a>
+                <a href="javascript:void(0);" rel="1">Wordpress, </a>
+                <a href="javascript:void(0);" rel="9">OOP, </a>
+                <a href="javascript:void(0);" rel="5">Agile Methodology, </a>
+                <a href="javascript:void(0);" rel="2">REST, </a>
+                <a href="javascript:void(0);" rel="3">HTTPS, </a>
+                <a href="javascript:void(0);" rel="7">Apache, </a>
+                <a href="javascript:void(0);" rel="2">Material Design, </a>
+                <a href="javascript:void(0);" rel="1">SSH </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="card" style="margin-top: 15px; margin-left: auto; margin-right: auto; width: 80%; top: 52px;">
+        <div class="card-header" style="background-color: #ffffff">
+            <h4>Professional, Academic & Personal Projects</h4>
+        </div>
+        <div class="card-body" style="text-align: justify;">
+            <div class="project">
+                <div class="project-title">
+                    <h5>Safer Walking</h5>
+                </div>
+                <div class="project-date">
+                    <p>Oct 2018 - Feb 2019</p>
+                </div>
+                <div class="project-descrpt">
+                    <div class="descrpt-text">
+                        <p>Safer Walking is a cross-platform hybrid app that I designed and implemented as the sole developer for Ravencourt Ltd. The aim of the app is to help keep senior citizens safe using GPS tracking, Geofencing, SOS notifications and two-way voice communication. The front-end of Safer Walking app was built using the Cordova Phonegap framework which interacts with the backend GPS tracking server hosted on a Digital Ocean VPS via a REST API.</p>
+                        <p class="tech-used">Technologies used: Cordova Phonegap, Traccar, MySQL, Digital Ocean, Android Studio, Xcode.</p>
+                        <p style="text-align: left">Useful Links:</p>
+                        <ul>
+                            <li><a target="_blank" href="http://ravencourtliving.com/safer-walking-hits-the-shelves/">http://ravencourtliving.com/safer-walking-hits-the-shelves/</a></li>
+                            <li><a target="_blank" href="http://ravencourtliving.com/our-products/memory-loss/gps-location-device/">http://ravencourtliving.com/gps-location-device/</a></li>
+                        </ul>
+                        <p style="text-align: left">Available for Android at <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ravencourt.hybrid">Google Play Store</a> and for iOS at the <a href="https://itunes.apple.com/us/app/safer-walking/id1451951727?ls=1&mt=8">App Store</a>, or scan the QR code below from your phone.</p>
+                        <div style="height: 100px;"><img style="height: 100%;" src="{% static '/home/images/qrcode.png' %}"/></div>
+                    </div>
+                    <div class="descrpt-img" style="text-align: center">
+                        <img style="height: 525px; width: auto; margin-top: -70px;" src="{% static 'home/images/safer-walking.jpg' %}" alt="on yer bike logo">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="project">
+                <div class="project-title">
+                    <h5>Safer Walking Registration</h5>
+                </div>
+                <div class="project-date">
+                    <p>March 2019</p>
+                </div>
+                <div class="project-descrpt">
+                    <div class="descrpt-text">
+                        <p>I Designed, developed and deployed a registration web app for the Safer Walking mobile app. The web app consists of three pages: <strong>Home</strong>, <strong>Register</strong> and <strong>Account</strong> page. There are a number of REST API's integrated in the back-end of the web app. <ul><li><strong>Braintree API:</strong> A PayPal subsidiary, which is used to load a secure form to take the customer's card details and set up a recurring subscription.</li><li><strong>Sendgrid API:</strong> This is used to send a confirmation email to the customer once they have successfully subscribed.</li><li><strong>Twilio API:</strong> A cloud communications PaaS used to remotely configure customer's GPS trackers through SMS messages.</li><li><strong>Traccar API:</strong> This is used to create and manage the customer's Safer Walking account.</li></ul></p>
+                        <p class="tech-used">Technologies used: Django, PostgreSQL, Digital Ocean, Braintree API, Twilio API, SendGrid API, Traccar API</p>
+                        <p>Visit: <a target="_blank" href="https://www.saferwalkingactivation.com/">https://www.saferwalkingactivation.com/</a></p>
+                    </div>
+                    <div class="descrpt-img" style="text-align: center">
+                        <img style="width: 60%; border: 1px solid #EEEEEE" src="{% static 'home/images/safer-walking-reg2.gif' %}" alt="on yer bike logo">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="project">
+                <div class="project-title">
+                    <h5>Continuous Integration Deployer</h5>
+                </div>
+                <div class="project-date">
+                    <p>July 2018 - Sep 2018</p>
+                </div>
+                <div class="project-descrpt">
+                    <div class="descrpt-text">
+                        <p>The Continuous Integration Deployer project involved creating a web application which could be used by the FireEye Performance Engineering department to configure and deploy multiple jobs, running sequential workloads to endpoints running FireEye security software for performance testing purposes.</p>
+                        <p class="tech-used">Technologies used: Jenkins, Jenkins Remote Rest API, Flask, Python, Javascript, HTML5, CSS3</p>
+                    </div>
+                    <div class="descrpt-img" style="text-align: center">
+                        <img style="width: 100%; margin-top: -70px;" src="{% static 'home/images/cid.png' %}" alt="on yer bike logo">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="project">
+                <div class="project-title">
+                    <h5>Seoul Attractions</h5>
+                </div>
+                <div class="project-date">
+                    <p>May 2018</p>
+                </div>
+                <div class="project-descrpt">
+                    <div class="descrpt-text">
+                        <p>I have great interest in both travel and software development which I put together to create my own website, Seoul Attractions. This website shows my top 50 tourist attractions to visit when in Seoul. The tourist attractions are clustered together on a map based on their location so that the user can easily group nearby attractions together to plan out a daily itinerary.</p>
+                        <p class="tech-used">Technologies used: Django, Javascript, OpenStreetMap, CSS3, Python Anywhere, HTML5, LeafletJS, Git, Bootstrap4</p>
+                        <p>Visit: <a href="http://fergalpowell.pythonanywhere.com/">http://fergalpowell.pythonanywhere.com/</a></p>
+                    </div>
+                    <div class="descrpt-img">
+                        <img style="margin-top: -40px;" src="{% static 'home/images/seoul-attr.png' %}" alt="seoul attractions">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="project">
+                <div class="project-title">
+                    <h5>Dude Where's My Bike</h5>
+                </div>
+                <div class="project-date">
+                    <p>Sep 2017 - May 2018</p>
+                </div>
+                <div class="project-descrpt">
+                    <div style="width: 45%;" class="descrpt-text">
+                        <p>GPS bicycle tracking web application that assists the user in the recovery and prevention of bicycle theft. The system uses machine learning processes to detect frequently visited known locations of the user based on sensor data collected from a GPS tracking device. The system sets and monitors geofences on each known location and alerts the user if the bicycle leaves a geofence.</p>
+                        <p class="tech-used">Technologies used: Django, Python, PostreSQL, PostGIS, Linux, Javascript, AWS, Docker, Vultr, Gammu, Overpass API.</p>
+                    </div>
+                    <div class="descrpt-img">
+                        <img style="margin-left: 2.5%; width: 80%;" src="{% static 'home/images/dwmy-arch.png' %}" alt="system architecture">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="project">
+                <div class="project-title">
+                    <h5>On Yer Bike</h5>
+                </div>
+                <div class="project-date">
+                    <p>Sep 2017 - Dec 2017</p>
+                </div>
+                <div class="project-descrpt">
+                    <div class="descrpt-text">
+                        <p>For the module, Advanced Web Mapping, I was required to create a Cordova mobile application that used a Django backend service to store data and incorporated some sort of location/mapping aspect. I chose to create a route planning tool for cyclists. The mobile app would allow the user to input a start and finish location in the Dublin city centre on a map. The app would then produce and display the quickest route from start to finish and also display the closest public bicycle locking station to the route destination on the map.</p>
+                        <p class="tech-used">Technologies used: Python, Django, Javascript, LeafletJS, HTML, CSS, Docker, AWS, Git, Digital Ocean.</p>
+                    </div>
+                    <div class="descrpt-img" style="text-align: center">
+                        <img style="width: 80%" src="{% static 'home/images/onYerBikeLogo.png' %}" alt="on yer bike logo">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div style="text-align: center">
+                <a href="javascript:alert('Check back later for more content!');" class="btn btn-primary">More Projects</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="card" style="margin-top: 15px; margin-left: auto; margin-right: auto; width: 80%; top: 52px;">
+        <div class="card-header" style="background-color: #ffffff">
+            <h4>Industry Experience & Volunteer Work</h4>
+        </div>
+        <div class="card-body">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/ravencourt.png' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">App Developer</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">Ravencourt Ltd</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Stamford, United Kingdom</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Sep 2018 - Feb 2019 &#8226; 6 months</p>
+                    </div>
+                </div>
+                <div class="job-body">
+                    <p>As App Developer, I was responsible for designing, implementing and deploying the entirety of the app. By communicating well with the client to fully understand what they wanted, I produced clear and achievable requirements for the app.</p>
+                    <p>Once the app requirements were detailed, I began researching and evaluating the suite of technologies that would be used to achieve these requirements. When evaluating technologies I looked at a number of different factors including: cost, implementation process, support, accessibility as well as my own personal familiarity with the technology.</p>
+                    <p>I followed an Agile development process during implementation which allowed for requirements to be added/removed throughout the development cycle which meant the app was constantly evolving. Requirements were implemented based on their overall importance to the app as well as the level of risk associated with it. Each requirement was implemented, integrated and tested before development of the next requirement began.</p>
+                    <p>After a number of iterations, the app was ready for deployment which involved ensuring that the app was properly configured and adhered to Apple and Google's guidelines. Once approved and made available in the app store, I monitored user feedback and released a number of small updates to fix any bugs encountered by users.</p>
+                    <p>Before finishing up with Ravencourt, I wrote up clear and simple documentation for the client. Within this documentation, I included troubleshooting, administrative and maintenance instructions for the app and server.</p>
+                </div>
+            </div>
+            <hr style="margin-left: 125px">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/ravencourt.png' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">Web Developer</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">Ravencourt Ltd</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Stamford, United Kingdom</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Mar 2018 - Apr 2019 &#8226; 2 months</p>
+                    </div>
+                </div>
+                <div class="job-body">
+                    <p>After successfully completing my initial contract with Ravencourt Ltd, a new short-term contract was offered to me to build a registration system for the Safer Walking app. This contract allowed me to work remotely on the project in my own time which was an interesting and beneficial experience for me.</p>
+                    <p>The approach I took for this project was similar to the Safer Walking project. I began by having a number of open discussions with the client about their proposed business model and specifically what they wanted in the web app. I wrote up a requirement document and took some extra time to create a mock up of the web app which proved to save time when it came to implementation.</p>
+                    <p>I began implementation by setting up a Django web app on a Digital Ocean droplet served through Nginx and Gunicorn. I created a Braintree sandbox environment to use during development and integreted it into the web app. The Twilio and Sendgrid APIs were also integreted to handle automatic scheduled emails and SMS messages.</p>
+                    <p>Once all app requirements were fulfilled in the sandbox environment, I began the process of deploying the app into production. This involved dealing directly with Braintree staff members to ensure they understood the business model and that we abided to their terms of use.</p>
+                </div>
+            </div>
+            <hr style="margin-left: 125px">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/fireeye.png' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">Performance Engineer Intern</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">FireEye</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Dublin, Rep. of Ireland</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Jul 2018 - Sep 2018 &#8226; 3 months</p>
+                    </div>
+                </div>
+                <div class="job-body">
+                    <p>I started my internship with FireEye by learning about their wide range of products and how the performance engineering team would monitor the behaviour of these products while running multiple workloads in a virtual environment. I also learned about how they utilised Jenkins and GitHub to automate their performance testing.</p>
+                    <p>Once I had gained a strong understading of what they did in the perfromacen engineering department, I was introduced to the Continuous Integration Deployer project. This was a pre-exisiting project that was being developed as a internal tool to assist the department in deploying scripted pipeline jobs to multiple virtual environments. The tools would offer the ability to configure and customise the jobs before deployment and allow for the user to select the target destination of the job.</p>
+                    <p>The CID was built with the Flask framework which I picked up quickly as I had experience using a similar python framework, Django, in previous academic projects. Throughout the development of project I communicated the status of the project and any issues I was facing during our daily stand up meetings. These meetings proved very beneficial to me by helping me keep track of the progress I was making as well as addressing issues early before they become a significant problem.</p>
+                    <p>I presented my contribution to the project to senior staff members including a number of influential leaders in the EMEA offices. Before leaving I ensured there was a smooth hand over of the project by spending my final week documenting my changes made to the project and bringing my successor up to speed.</p>
+                </div>
+            </div>
+            <hr style="margin-left: 125px">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/perception.png' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">Data Consultant Support</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">Perception Data Consulting</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Wicklow, Rep. of Ireland</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Jul 2017 - Sep 2017 &#8226; 3 months</p>
+                    </div>
+                </div>
+                <div class="job-body">
+                    <p></p>
+                </div>
+            </div>
+            <hr style="margin-left: 125px">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/bec.png' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">Facilities & ICT Support</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">Blackrock Education Centre</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Dublin, Rep. of Ireland</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Oct 2015 - Sep 2018 &#8226; 3 years</p>
+                    </div>
+                </div>
+                <div class="job-body">
+                    <p></p>
+                </div>
+            </div>
+            <hr style="margin-left: 125px">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/nsai.png' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">Data Entry Clerk / HR Coordinator</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">National Standards Authority of Ireland</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Dublin, Rep. of Ireland</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">May 2016 - Aug 2016 &#8226; 4 months</p>
+                    </div>
+                </div>
+                <div class="job-body">
+                    <p></p>
+                </div>
+            </div>
+            <hr style="margin-left: 125px">
+            <div style="text-align: center">
+                <a href="javascript:alert('Check back later for more content!');" class="btn btn-primary">View Volunteer Work</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="education" class="card" style="margin-top: 15px; margin-left: auto; margin-right: auto; width: 80%; top: 52px;">
+        <div class="card-header" style="background-color: #ffffff">
+            <h4>Education & Training</h4>
+        </div>
+        <div class="card-body">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/tud.png' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">Technical University of Dublin</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">Bachelors of Sc. Computer Science &#8226; 1.1</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Dublin, Rep. of Ireland</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Sep 2014 - May 2018 &#8226; 4 years</p>
+                    </div>
+                </div>
+                <div style="margin-right: 100px;" class="job-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Result</th>
+                                <th>Module</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Programming</td>
+                            <td>83%</td>
+                            <td>Final Year Project</td>
+                            <td>71%</td>
+                        </tr>
+                        <tr>
+                            <td>Program Design</td>
+                            <td>73%</td>
+                            <td>Mathematics</td>
+                            <td>70%</td>
+                        </tr>
+                        <tr>
+                            <td>Systems Integration</td>
+                            <td>74%</td>
+                            <td>Advanced Web Mapping</td>
+                            <td>71%</td>
+                        </tr>
+                        <tr>
+                            <td>Rich Web Application Technology</td>
+                            <td>84%</td>
+                            <td>Enterprise Application Development</td>
+                            <td>84%</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Security 1</td>
+                            <td>80%</td>
+                            <td>Advanced Security 2</td>
+                            <td>73%</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr style="margin-left: 125px; margin-right: 100px;">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/hda.jpeg' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">University of Applied Science Darmstadt</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">EDDIT &#8226; Informatik </p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Darmstadt, Germany</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Sep 2016 - Jul 2017 &#8226; 11 months</p>
+                    </div>
+                </div>
+                <div style="margin-right: 100px;" class="job-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Result</th>
+                                <th>Module</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr>
+                                <td>Project System Development</td>
+                                <td>70%</td>
+                                <td>Game Development Animation</td>
+                                <td>85%</td>
+                            </tr>
+                            <tr>
+                                <td>Game Development C++</td>
+                                <td>80%</td>
+                                <td>Intro to Game Development</td>
+                                <td>70%</td>
+                            </tr>
+                            <tr>
+                                <td>Unix Software Development</td>
+                                <td>69%</td>
+                                <td>Intercultural Communication</td>
+                                <td>90%</td>
+                            </tr>
+                            <tr>
+                                <td>Networking - Routing</td>
+                                <td>76%</td>
+                                <td>Compiler Construction</td>
+                                <td>65%</td>
+                            </tr>
+                            <tr>
+                                <td>Deutsche Kurz A1</td>
+                                <td>80%</td>
+                                <td>Deutsche Kurz A2</td>
+                                <td>77%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <hr style="margin-left: 125px; margin-right: 100px;">
+            <div class="job">
+                <div class="job-header">
+                    <div class="company-image">
+                        <img style="width: 100%;" src="{% static '/home/images/conleths.jpeg' %}"/>
+                    </div>
+                    <div class="company-text">
+                        <h5 style="margin-bottom: 0;">St. Conleths College</h5>
+                        <p style="font-weight: lighter; margin-bottom: .5rem;">Leaving Certificate </p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6); margin-bottom: 0;">Dublin, Rep. of Ireland</p>
+                        <p style="font-size: 14px; color: rgba(0,0,0,.6);">Sep 2008 - May 2013 &#8226; 6 years</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-left: 125px; margin-right: 100px;">
+            <div style="text-align: center">
+                <a href="javascript:alert('Check back later for more content!');" class="btn btn-primary">View Training</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="card" style="min-height: 700px; margin-top: 15px; margin-left: auto; margin-right: auto; width: 80%; top: 52px;">
+        <div class="card-header" style="background-color: #ffffff">
+            <h4>Contact Info</h4>
+        </div>
+        <div style="display: flex; justify-content: space-around; margin: 25px;" class="card-body">
+            <div id="circle-1" class="contact-circles" style="width: 33.3%">
+                <button style="width:125px; height: 125px;" class="btn btn-warning bmd-btn-fab"><i style="font-size: 30px;" class="fa fa-fw fa-envelope"></i></button>
+                <h3 style="margin-top: 2.5%";>Email</h3>
+                <h5><a target="_blank" href="mailto:fergal.powell@gmail.com">fergal.powell@gmail.com</a></h5>
+            </div>
+            <div id="circle-2" class="contact-circles" style="width: 33.3%">
+                <button style="width:125px; height: 125px;" class="btn btn-info bmd-btn-fab"><i style="font-size: 30px;" class="fa fa-fw fa-phone"></i></button>
+                <h3 style="margin-top: 2.5%";>Phone</h3>
+                <h5><a target="_blank" href="tel:+447743087538">+447743087538</a></h5>
+            </div>
+            <div id="circle-3" class="contact-circles" style="width: 33.3%">
+                <button style="width:125px; height: 125px;" class="btn btn-success bmd-btn-fab"><i style="font-size: 30px;" class="fa fa-fw fa-map-marker"></i></button>
+                <h3 style="margin-top: 2.5%";>Address</h3>
+                <h5><a target="_blank" href="https://www.google.com/maps/place/Peterborough/@52.5850588,-0.4405365,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8077dccaa4605:0xaefe2de1d96d8dd5!8m2!3d52.5694985!4d-0.2405299">Peterborough, UK</a></h5>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: space-around; margin: 25px;" class="card-body">
+            <div id="circle-4" class="contact-circles" style="width: 33.3%">
+                <button style="width:125px; height: 125px;" class="btn btn-primary bmd-btn-fab"><i style="font-size: 30px;" class="fa fa-fw fa-linkedin"></i></button>
+                <h3 style="margin-top: 2.5%";>LinkedIn</h3>
+                <h5><a target="_blank" href="https://www.linkedin.com/in/fergalpowell/">linkedin.com/in/fergalpowell/</a></h5>
+            </div>
+            <div id="circle-5" class="contact-circles" style="width: 33.3%">
+                <button style="width:125px; height: 125px;" class="btn btn-danger bmd-btn-fab"><i style="font-size: 30px;" class="fa fa-fw fa-birthday-cake"></i></button>
+                <h3 style="margin-top: 2.5%";>Birthday</h3>
+                <h5>
+                    <a id="birthday" class="addeventatc" target="_blank" href="mailto:fergal.powell@gmail.com">
+                        26 January
+                        <span class="start">01/26/2020 12:00 AM</span>
+                        <span class="end">01/27/2020 12:00 AM</span>
+                        <span class="timezone">UTC</span>
+                        <span class="title">Wish Fergal a Happy Birthday!</span>
+                        <span class="description">Don't forget to wish Fergal a happy birthday today.</span>
+                        <span class="location">Worldwide</span>
+                    </a>
+                </h5>
+            </div>
+            <div id="circle-6" class="contact-circles" style="width: 33.3%">
+                <button style="width:125px; height: 125px;" class="btn btn-info bmd-btn-fab"><i style="font-size: 30px;" class="fa fa-fw fa-github"></i></button>
+                <h3 style="margin-top: 2.5%";>GitHub</h3>
+                <h5><a target="_blank" href="https://github.com/fergalpowell">github.com/fergalpowell</a></h5>
+            </div>
+        </div>
+            {#            <div class="contact-method">#}
+{#                <div class="contact-icon">#}
+{#                    <i style="font-size: 50px; color: #0277bd;" class="fa fa-fw fa-envelope-square"></i>#}
+{#                </div>#}
+{#                <div class="contact-text">#}
+{#                    <h4>Email</h4>#}
+{#                    <h5><a href="mailto:fergal.powell@gmail.com">fergal.powell@gmail.com</a></h5>#}
+{#                </div>#}
+{#            </div>#}
+        </div>
+    </div>
+
+    <div class="card" style="margin-top: 15px; margin-left: auto; margin-right: auto; width: 80%; top: 52px;">
+        <div class="card-body">
+            <br>
+            <h2>You've Hit Rock Bottom....</h2>
+            <br><br>
+            <h5>Thank you for taking the time to visit my website</h5>
+            <h5>I would appreciate if you could rate your visit below</h5>
+            <br>
+        </div>
+        <div id="star-container">
+            <button id="star1" type="button" class="star btn btn-secondary bmd-btn-fab">
+                <i style="font-size: 30px;" class="fa fa-fw fa-star"></i>
+            </button>
+            <button id="star2" type="button" class="star btn btn-secondary bmd-btn-fab">
+                <i style="font-size: 30px;" class="fa fa-fw fa-star"></i>
+            </button>
+            <button id="star3" type="button" class="star btn btn-secondary bmd-btn-fab">
+                <i style="font-size: 30px;" class="fa fa-fw fa-star"></i>
+            </button>
+            <button id="star4" type="button" class="star btn btn-secondary bmd-btn-fab">
+                <i style="font-size: 30px;" class="fa fa-fw fa-star"></i>
+            </button>
+            <button id="star5" type="button" class="star btn btn-secondary bmd-btn-fab">
+                <i style="font-size: 30px;" class="fa fa-fw fa-star"></i>
+            </button>
+        </div>
+        <br><br>
+        <div id="review-submitted">
+            <h5>Your rating has been submitted!</h5>
+            <h5>Come back later for more updates on Fergal :)</h5>
+            <br><br>
+        </div>
+    </div>
+
+    <button id="scroll-up" type="button" class="btn btn-info bmd-btn-fab">
+        <i class="fa fa-fw fa-arrow-up"></i>
+    </button>
+
+    <script>
+        $("#tagcloud a").tagcloud({
+            size: {start: 20, end: 36, unit: "px"},
+            color: {start: '#3498DB', end: '#46CFB0'}
+        });
+        $("#nav a").click(function() {
+            let target = $(this).attr('data-target');
+
+            $('html, body').animate({
+                scrollTop: $(target).offset().top - 52
+            }, 1000);
+        });
+
+        $(window).scroll(function(){
+            let projectPos = $('#projects').position();
+            let experiencePos = $('#experience').position();
+            let technologiesPos = $('#technologies').position();
+            let educationPos = $('#education').position();
+            let contactPos = $('#contact').position();
+            if($(window).scrollTop() >= technologiesPos.top - 52){
+                document.getElementById('scroll-up').style.display = "block";
+            } else {
+                document.getElementById('scroll-up').style.display = "none";
+            }
+
+            if($(window).scrollTop() >= contactPos.top - 400){
+                $(".contact-circles").css("display", "block");
+            }
+
+            if($(window).scrollTop() < projectPos.top - 52){
+                $( "#nav" ).find( 'a.active' ).removeClass( 'active' );
+                $( "#nav a:nth-child(1)" ).addClass( 'active' );
+            } else if($(window).scrollTop() >= projectPos.top - 52 &&
+               $(window).scrollTop() < experiencePos.top - 52 ){
+                $( "#nav" ).find( 'a.active' ).removeClass( 'active' );
+                $( "#nav a:nth-child(2)" ).addClass( 'active' );
+            } else if($(window).scrollTop() >= experiencePos.top - 52 &&
+                $(window).scrollTop() < educationPos.top - 52 ){
+                $( "#nav" ).find( 'a.active' ).removeClass( 'active' );
+                $( "#nav a:nth-child(3)" ).addClass( 'active' );
+            } else if($(window).scrollTop() >= educationPos.top - 52 &&
+                $(window).scrollTop() < contactPos.top - 52 ){
+                $( "#nav" ).find( 'a.active' ).removeClass( 'active' );
+                $( "#nav a:nth-child(4)" ).addClass( 'active' );
+            }  else if($(window).scrollTop() >= contactPos.top - 52){
+                $( "#nav" ).find( 'a.active' ).removeClass( 'active' );
+                $( "#nav a:nth-child(5)" ).addClass( 'active' );
+            }
+        });
+
+        $('#scroll-up').click(function() {
+            $("html, body").animate({scrollTop: 0}, "slow");
+            return false;
+        });
+
+        $( "#star1" ).mouseenter(function() {
+            $( "#star1" ).addClass("star-after");
+        }).mouseleave(function() {
+            $( "#star1" ).removeClass("star-after");
+        });
+        $( "#star2" ).mouseenter(function() {
+            $( "#star1" ).addClass("star-after");
+            $( "#star2" ).addClass("star-after");
+        }).mouseleave(function() {
+            $( "#star1" ).removeClass("star-after");
+            $( "#star2" ).removeClass("star-after");
+        });
+        $( "#star3" ).mouseenter(function() {
+            $( "#star1" ).addClass("star-after");
+            $( "#star2" ).addClass("star-after");
+            $( "#star3" ).addClass("star-after");
+        }).mouseleave(function() {
+            $( "#star1" ).removeClass("star-after");
+            $( "#star2" ).removeClass("star-after");
+            $( "#star3" ).removeClass("star-after");
+        });
+        $( "#star4" ).mouseenter(function() {
+            $( "#star1" ).addClass("star-after");
+            $( "#star2" ).addClass("star-after");
+            $( "#star3" ).addClass("star-after");
+            $( "#star4" ).addClass("star-after");
+        }).mouseleave(function() {
+            $( "#star1" ).removeClass("star-after");
+            $( "#star2" ).removeClass("star-after");
+            $( "#star3" ).removeClass("star-after");
+            $( "#star4" ).removeClass("star-after");
+        });
+        $( "#star5" ).mouseenter(function() {
+            $( "#star1" ).addClass("star-after");
+            $( "#star2" ).addClass("star-after");
+            $( "#star3" ).addClass("star-after");
+            $( "#star4" ).addClass("star-after");
+            $( "#star5" ).addClass("star-after");
+        }).mouseleave(function() {
+            $( "#star1" ).removeClass("star-after");
+            $( "#star2" ).removeClass("star-after");
+            $( "#star3" ).removeClass("star-after");
+            $( "#star4" ).removeClass("star-after");
+            $( "#star5" ).removeClass("star-after");
+        });
+
+        $(".star").click(function(){
+            document.getElementById("star1").disabled = true;
+            document.getElementById("star2").disabled = true;
+            document.getElementById("star3").disabled = true;
+            document.getElementById("star4").disabled = true;
+            document.getElementById("star5").disabled = true;
+            document.getElementById("review-submitted").style.display = "block";
+            $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+        });
+
+    </script>
+</body>
+</html>
