@@ -25,7 +25,7 @@ SECRET_KEY = '2sovejr*s@w0%4d*%9nn3)kxx^p00orc%-e*f8+*k1jhsi%3ec'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['159.203.114.79','fergalpowell.com', 'www.fergalpowell.com', 'localhost']
 
 
 # Application definition
